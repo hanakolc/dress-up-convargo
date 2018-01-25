@@ -1,0 +1,21 @@
+body {
+  color: #414141;               /* Dark gray */
+  background-color: #EEEEEE;    /* Light gray */
+}
+
+.synopsis {
+  color: #7E8184;   
+}
+
+#compute {
+  color: #FFF;
+  background-color: #E9967A;    /* Dark salmon */
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 15px auto;
+}
