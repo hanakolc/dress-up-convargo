@@ -1,10 +1,47 @@
+#banniere{
+	margin-top: -20px;
+	margin-left: -20px;
+	margin-right: -20px;
+	background-color: pink;
+	padding : 10px;
+}
+
 body {
   color: #414141;               /* Dark gray */
   background-color: #EEEEEE;    /* Light gray */
+  text-align: center;
 }
 
 .synopsis {
   color: #7E8184;   
+}
+
+#left, #right{
+	vertical-align: top;
+	display: inline-block;
+
+}
+
+#left{
+	margin-top: 150px;
+	width: 40%;
+}
+
+#right{
+	margin-top: 110px;
+	width: 40%;
+}
+
+#trucker{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.name, .price-by-km, .price-by-cubic, .distance, .volume{
+	border: 1px solid #5D6063;    /* Dark gray */
+  	border-radius: 5px;
+  	width: 200px;
+  	padding: 10px;
 }
 
 #compute {

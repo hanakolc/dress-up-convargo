@@ -3,26 +3,33 @@
   <head>
     <title>CSS/HTML Workshop with Convargo</title>
     <link rel='stylesheet' href='styles.css'/>
+    <div id="banniere"><h1 id="title_ban">Convargo</h1></div>
   </head>
-  <h1>Expédiez votre marchandise avec convargo</h1>
-  <p class='synopsis'>
-  	La plateforme permet aux professionnels d'expédier leur marchandise dans toute l'Europe en quelques clics. Renseignez vos besoins d'expédition, obtenez un prix fixe et accédez à plus de 2 500 transporteurs de qualité.
-  </p>
   <body>
-    <div id="trucker">
-      <input class="name" type="text" placeholder="Trucker name"/>
-      <input class="price-by-km" type="number" placeholder="Price by km"/>
-      <input class="price-by-cubic" type="number" placeholder="Price by m3"/>
-    </div>
-    <div id="shipper">
-      <input class="name" type="text" placeholder="Shipper name"/>
-      <input class="distance" type="number" placeholder="Distance in km"/>
-      <input class="volume" type="number" placeholder="Volume in m3"/>
-      <input class="option" type="checkbox" placeholder="Deductible option"/>
-    </div>
-    <button id="compute">Compute</button>
-    <div id="actors"></div>
-    <script src="convargo.js"></script>
-    <script src="index.js"></script>
+	  <div id="left">
+		  <h1>Expédiez votre marchandise avec convargo</h1>
+		  <p class='synopsis'>
+		  	La plateforme permet aux professionnels d'expédier leur marchandise dans toute l'Europe en quelques clics. Renseignez vos besoins d'expédition, obtenez un prix fixe et accédez à plus de 2 500 transporteurs de qualité.
+		  </p>
+	  </div>
+	  <div id="right">
+		    <div id="trucker">
+		      <label for="trucker">Trucker info</label>
+		      <div><input class="name" type="text" placeholder="Trucker name"/></div>
+		      <div><input class="price-by-km" type="number" placeholder="Price by km"/></div>
+		      <div><input class="price-by-cubic" type="number" placeholder="Price by m3"/></div>
+		    </div>
+		    <div id="shipper">
+		      <label for="shipper">Shipper info</label>
+		      <div><input class="name" type="text" placeholder="Shipper name"/></div>
+		      <div><input class="distance" type="number" placeholder="Distance in km"/></div>
+		      <div><input class="volume" type="number" placeholder="Volume in m3"/></div>
+		      <div><input class="option" type="checkbox" placeholder="Deductible option"/></div>
+		    </div>
+		    <button id="compute">Compute</button>
+		    <div id="actors"></div>
+		    <script src="convargo.js"></script>
+		    <script src="index.js"></script>
+	   </div>
   </body>
 </html>
